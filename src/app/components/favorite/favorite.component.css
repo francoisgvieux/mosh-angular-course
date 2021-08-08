@@ -1,0 +1,14 @@
+.like-btn {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+.empty-red {
+    color: red;
+}
+
+.full {
+    color: black;
+    background-color: red;
+}

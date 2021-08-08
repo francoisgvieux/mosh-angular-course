@@ -1,0 +1,15 @@
+<div class="zippy">
+    <div 
+        class="zippy-header" 
+        [class.expended]="isActive" 
+        (click)="toogle()"
+    >
+        {{ title }} 
+    </div>
+    <div 
+        class="zippy-body"
+        *ngIf="isActive"
+    >
+        <ng-content ></ng-content>
+    </div>
+</div>

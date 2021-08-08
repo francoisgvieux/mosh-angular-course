@@ -1,0 +1,8 @@
+<div>
+    <span class="like-btn" 
+    [class.is-liked]='isActive' 
+    (click)="onClick()">
+        like
+    </span>
+    <span [textContent]="likesCount"></span>
+</div>
